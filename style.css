@@ -144,3 +144,22 @@ header {
 #comprarBtn{
     border-radius: 10px;
 }
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+    p{
+        font-size: 16px;
+    }
+
+    /* Adicione mais estilos para telas médias conforme necessário */
+}
+
+.section-background {
+    background-color: #eaeaea; /* Substitua pela cor desejada */
+}
+
+
+
+

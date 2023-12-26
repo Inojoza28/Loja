@@ -73,7 +73,7 @@ function mostrarCarrinho() {
 
 function comprarNoWhatsApp() {
     // Substitua 'seu_numero' pelo seu número de WhatsApp
-    var numeroWhatsApp = '+55(81)997002880';
+    var numeroWhatsApp = '+5581997002880';
 
     // Monta a mensagem com os itens do carrinho
     var mensagem = 'Gostaria de comprar os seguintes itens:';
@@ -87,3 +87,6 @@ function comprarNoWhatsApp() {
     // Redireciona para o link do WhatsApp
     window.location.href = linkWhatsApp;
 }
+
+
+
