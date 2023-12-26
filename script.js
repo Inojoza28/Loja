@@ -126,3 +126,21 @@ function goToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+
+
+
+function toggleCarrinho() {
+    var cart = document.getElementById("cart");
+
+    // Altera a posição da aba de carrinho
+    if (cart.style.right === "-250px" || cart.style.right === "") {
+        cart.style.right = "0";
+    } else {
+        cart.style.right = "-250px";
+    }
+
+    // Atualiza a visibilidade do botão "Comprar no WhatsApp"
+    var comprarBtn = document.getElementById("comprarBtn");
+    comprarBtn.style.display = (carrinho.length > 0) ? "block" : "none";
+}
