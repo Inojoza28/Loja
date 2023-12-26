@@ -152,7 +152,9 @@ header {
     p{
         font-size: 16px;
     }
-
+    .lead_text-body-secondary{
+        text-align: justify;
+    }
     /* Adicione mais estilos para telas médias conforme necessário */
 }
 
@@ -186,4 +188,29 @@ header {
 #notification.show {
     display: block;
     opacity: 1;
+}
+
+
+#goToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #7dbe02; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#goToTopBtn:hover {
+    background-color: #035023; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Exibe o botão apenas quando a página é rolada para baixo */
+#goToTopBtn.show {
+    display: block;
 }

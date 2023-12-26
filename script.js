@@ -107,3 +107,22 @@ function comprar(produto, preco) {
     atualizarCarrinho();
     atualizarNotificacaoCarrinho();
 }
+
+
+// Adiciona um ouvinte de evento para verificar o rolar da página
+window.addEventListener('scroll', function() {
+    var goToTopBtn = document.getElementById('goToTopBtn');
+
+    // Exibe o botão quando a página é rolada para baixo
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        goToTopBtn.classList.add('show');
+    } else {
+        goToTopBtn.classList.remove('show');
+    }
+});
+
+// Função para rolar até o topo da página
+function goToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
