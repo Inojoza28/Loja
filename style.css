@@ -161,5 +161,29 @@ header {
 }
 
 
+#notification {
+    display: none;
+    position: fixed;
+    top: 7%; /* Centraliza verticalmente na tela */
+    right: 20px; /* Posiciona à direita da tela */
+    transform: translateY(-50%); /* Ajusta para centralizar verticalmente */
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    /* Adicione estas linhas para uma transição suave */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
 
 
+#notification {
+    display: none;
+    /* ... */
+    opacity: 0;
+}
+
+#notification.show {
+    display: block;
+    opacity: 1;
+}

@@ -90,3 +90,20 @@ function comprarNoWhatsApp() {
 
 
 
+function comprar(produto, preco) {
+    carrinho.push({ produto, preco });
+
+    // Adicione essas linhas para exibir a notificação
+    var notification = document.getElementById("notification");
+    notification.classList.remove("show"); // Remove a classe "show" antes de adicionar novamente
+    setTimeout(function() {
+        notification.classList.add("show");
+    }, 10); // Adiciona a classe "show" após um pequeno atraso
+
+    setTimeout(function() {
+        notification.classList.remove("show");
+    }, 3000); // Oculta a notificação após 3 segundos
+
+    atualizarCarrinho();
+    atualizarNotificacaoCarrinho();
+}
