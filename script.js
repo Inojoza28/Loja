@@ -144,3 +144,5 @@ function toggleCarrinho() {
     var comprarBtn = document.getElementById("comprarBtn");
     comprarBtn.style.display = (carrinho.length > 0) ? "block" : "none";
 }
+
+
