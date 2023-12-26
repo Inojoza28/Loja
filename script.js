@@ -76,7 +76,7 @@ function comprarNoWhatsApp() {
     var numeroWhatsApp = '+5581997002880';
 
     // Monta a mensagem com os itens do carrinho
-    var mensagem = 'Gostaria de comprar os seguintes itens:';
+    var mensagem = 'Olá, gostaria de comprar os seguintes itens:';
     carrinho.forEach(item => {
         mensagem += '\n- ' + item.produto + ' (R$ ' + item.preco.toFixed(2) + ')';
     });
