@@ -304,9 +304,10 @@ body.dark-mode #cart {
     color: #fff; /* Cor do texto dentro do carrinho */
 }
 
-dark-mode #carrinhodecompras{
+body.dark-mode #carrinhodecompras{
     color: #fff;
 }
 body.dark-mode #nossosprodutos{
     color: #fff;
 }
+
