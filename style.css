@@ -313,3 +313,6 @@ body.dark-mode #nossosprodutos{
     color: #fff;
 }
 
+.dark-mode .section-background {
+    background: linear-gradient(to bottom, #2c2b47, #a75293, #9c7a9d, #584658, #292529);
+}
