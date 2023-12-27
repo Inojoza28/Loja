@@ -240,7 +240,7 @@ header {
 }
 
 .lead{
-    color: #ffffffb2;
+    color: #ffffffc0;
 }
 
 
@@ -312,7 +312,8 @@ body.dark-mode #nossosprodutos{
 }
 
 .dark-mode .section-background {
-    background: linear-gradient(to bottom, #011d38,#01001d,#080338,#01367c,#2c2c2c );
+    /* background: linear-gradient(to bottom, #011d38,#01001d,#080338,#01367c,hsla(0, 0%, 10%, 0.644)); */
+    background: linear-gradient(to bottom, #000000e0,#0e0729,#11095d,#17013b);
   
 }
 
