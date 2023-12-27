@@ -248,7 +248,7 @@ header {
 
 
 .dark-mode {
-    background-color: hsla(0, 0%, 10%, 0.932);
+    background-color: hsl(0, 0%, 10%);
     color: #fff;
 }
 
