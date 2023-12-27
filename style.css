@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #fcfcfc;
 }
 
 header {
@@ -22,10 +22,21 @@ header {
 .product {
     width: 250px;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #ccc;
     text-align: center;
+    background-color: #383838; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(14, 110, 255, 0.1); /* Sombra suave */
+    font-size: 18px;
 }
+
+/* Se você quiser adicionar um espaçamento entre as caixas .product, você pode adicionar uma margem */
+.product + .product {
+    margin-top: 20px;
+}
+
 
 .product img {
     width: 100%;
@@ -33,7 +44,7 @@ header {
 
 .price {
     font-weight: bold;
-    color: #333;
+    color: #fff;
 }
 
 .buy-btn {
@@ -130,7 +141,7 @@ header {
 }
 
 .cart {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2f1;
     padding: 20px;
     position: fixed;
     top: 0;
@@ -161,14 +172,19 @@ header {
 }
 
 .section-background {
-    background-color: #eaeaea; /* Substitua pela cor desejada */
+    /* background-color: #eaeaea;  */
+
+    /* background:linear-gradient(to right,#FF7878,#FFA5A5,#ffd2d2ce, #ffd2d2b2, #ffd2d2ce,#FFD2D2); */
+    background:linear-gradient(to bottom,#ffd1d4,#f3b0b5,#e79096, #db6f77, #cf4e59);
+    
 }
+
 
 
 #notification {
     display: none;
     position: fixed;
-    top: 7%; /* Centraliza verticalmente na tela */
+    top: 5%; /* Centraliza verticalmente na tela */
     right: 20px; /* Posiciona à direita da tela */
     transform: translateY(-50%); /* Ajusta para centralizar verticalmente */
     background-color: #4CAF50;
@@ -217,3 +233,75 @@ header {
     display: block;
 }
 
+#nossosprodutos{
+    color: #444; 
+    font-size: 40px;
+}
+
+
+
+
+/* modo escuro */
+
+
+.dark-mode {
+    background-color: hsl(0, 0%, 10%);
+    color: #fff;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #333;
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.cart-panel {
+    /* Estilos padrão para o painel do carrinho */
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.dark-mode .cart-panel {
+    /* Estilos específicos para o modo escuro */
+    background-color: #383838;
+    color: #fff; /* Cor do texto no modo escuro */
+}
+
+.light-mode .cart-panel {
+    /* Estilos específicos para o modo claro */
+    background-color: #fff;
+    color: #333; /* Cor do texto no modo claro */
+}
+
+/* Seletor para mudar a cor do fundo da página */
+body.light-mode {
+    background-color: #f8f9fad3;
+    color: black; /* Mantém o texto preto */
+}
+
+/* Seletor para mudar a cor das informações dentro do carrinho */
+body.dark-mode #cart {
+    background-color: #111111e8; /* Cor de fundo dentro do carrinho */
+    color: #fff; /* Cor do texto dentro do carrinho */
+}
+
+body.dark-mode #carrinhodecompras{
+    color: #fff;
+}
+body.dark-mode #nossosprodutos{
+    color: #fff;
+}
