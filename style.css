@@ -172,10 +172,8 @@ header {
 }
 
 .section-background {
-    /* background-color: #eaeaea;  */
-
-    /* background:linear-gradient(to right,#FF7878,#FFA5A5,#ffd2d2ce, #ffd2d2b2, #ffd2d2ce,#FFD2D2); */
-    background:linear-gradient(to bottom,#2c2b4b,#a75293,#9c7a9d, #9ddacb, #d6d6d6);
+    background:linear-gradient(to bottom,#044c94,#089cf0,#97e1f9,#d6d6d6);
+    /* background:linear-gradient(to bottom,#2c2b4b,#a75293,#9c7a9d, #9ddacb, #d6d6d6); */
    
 }
 
@@ -314,5 +312,7 @@ body.dark-mode #nossosprodutos{
 }
 
 .dark-mode .section-background {
-    background: linear-gradient(to bottom, #2c2b47, #a75293, #9c7a9d, #584658, #292529);
+    background: linear-gradient(to bottom, #011d38,#01001d,#080338,#01367c,#2c2c2c );
+  
 }
+
