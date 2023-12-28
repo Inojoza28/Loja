@@ -25,8 +25,8 @@ header {
     padding: 20px;
     border: 2px solid #333;
     text-align: center;
-    background-color: #383838; /* Cor de fundo azul */
-    color: #fff; /* Cor do texto branco */
+    background-color: #383838; 
+    color: #fff; 
     border-radius: 10px;
     box-shadow: 0 4px 8px #c2c1c1; /* Sombra suave */
     font-size: 18px;
@@ -134,7 +134,7 @@ header {
     top: -5px;
     /* right: -1px; */
     font-size: 12px;
-    background-color: #ff0000; /* Azul */
+    background-color: #ff0000; 
     color: #fff;
     padding: 4px 6px;
     border-radius: 50%;
@@ -154,13 +154,13 @@ header {
 
 #comprarBtn{
     border-radius: 10px;
-    font-size: 14px; /* Ajuste o tamanho do texto */
-    padding: 8px 12px; /* Ajuste o preenchimento (padding) do botão */
+    font-size: 14px; 
+    padding: 8px 12px; 
 }
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 24px; /
     }
     p{
         font-size: 16px;
@@ -168,12 +168,11 @@ header {
     .lead_text-body-secondary{
         text-align: justify;
     }
-    /* Adicione mais estilos para telas médias conforme necessário */
+
 }
 
 .section-background {
     background:linear-gradient(to bottom,#044c94,#089cf0,#97e1f9,#d6d6d6);
-    /* background:linear-gradient(to bottom,#2c2b4b,#a75293,#9c7a9d, #9ddacb, #d6d6d6); */
    
 }
 
@@ -217,8 +216,8 @@ header {
     right: 20px;
     font-size: 16px;
     padding: 10px;
-    background-color: #7dbe02; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
+    background-color: #7dbe02; 
+    color: #fff; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -226,7 +225,7 @@ header {
 }
 
 #goToTopBtn:hover {
-    background-color: #035023; /* Cor de fundo do botão ao passar o mouse */
+    background-color: #035023; 
 }
 
 /* Exibe o botão apenas quando a página é rolada para baixo */
@@ -283,25 +282,25 @@ header {
 .dark-mode .cart-panel {
     /* Estilos específicos para o modo escuro */
     background-color: #383838;
-    color: #fff; /* Cor do texto no modo escuro */
+    color: #fff; 
 }
 
 .light-mode .cart-panel {
     /* Estilos específicos para o modo claro */
     background-color: #fff;
-    color: #333; /* Cor do texto no modo claro */
+    color: #333; 
 }
 
 /* Seletor para mudar a cor do fundo da página */
 body.light-mode {
     background-color: #e1e0e0;
-    color: black; /* Mantém o texto preto */
+    color: black; 
 }
 
 /* Seletor para mudar a cor das informações dentro do carrinho */
 body.dark-mode #cart {
-    background-color: #111111e8; /* Cor de fundo dentro do carrinho */
-    color: #fff; /* Cor do texto dentro do carrinho */
+    background-color: #111111e8; 
+    color: #fff; /
 }
 
 body.dark-mode #carrinhodecompras{
@@ -312,7 +311,6 @@ body.dark-mode #nossosprodutos{
 }
 
 .dark-mode .section-background {
-    /* background: linear-gradient(to bottom, #011d38,#01001d,#080338,#01367c,hsla(0, 0%, 10%, 0.644)); */
     background: linear-gradient(to bottom, #000000e0,#0e0729,#11095d,#17013b);
   
 }
